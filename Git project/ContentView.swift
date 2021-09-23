@@ -15,7 +15,7 @@ struct ContentView: View {
                 Text("This is the content view")
                 NavigationLink(destination: ModalView()) {
                     Text("Go Next")
-                }.foregroundColor(.purple)
+                }.foregroundColor(.blue)
                     .navigationTitle("Xode and Git")
             }
         }
